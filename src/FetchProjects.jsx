@@ -5,7 +5,6 @@ const client = createClient({
   space: "7s6sr66cmb1n",
   environment: "master",
   accessToken: import.meta.env.VITE_API_KEY,
-  accessToken: "-uOmWunoZ4w423Oj3wL0Lx6kmZ4y549tjZY6SicL3PI",
 });
 
 export const useFetchProjects = () => {
